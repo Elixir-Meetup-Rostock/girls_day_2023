@@ -1,0 +1,2 @@
+defmodule GirlsDay do
+end
