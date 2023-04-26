@@ -77,13 +77,7 @@ defmodule Solution.StretchGoal4 do
     dices
     |> Enum.frequencies()
     |> Enum.map(fn {_value, count} -> count end)
-    |> Enum.reduce_while(false, fn count, _acc ->
-      if count >= x do
-        {:halt, true}
-      else
-        {:cont, false}
-      end
-    end)
+    |> Enum.any?(fn count -> count >= x end)
   end
 
   def get_points_for_same_value(dices, value) do

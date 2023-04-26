@@ -1,5 +1,4 @@
 defmodule Solution.StretchGoal2 do
-  alias Solution.MainTask
   alias Solution.StretchGoal1
 
   def run() do
