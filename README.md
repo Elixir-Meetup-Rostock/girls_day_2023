@@ -1,10 +1,25 @@
 # Girlsday - Backend Programming Session
 
-Herzlich willkommen zu deiner heutigen Programmiererfahrung im Backend. Nachfolgend findest du die Aufgabenstellung und weiter unten eine Übersicht mit den wichtigstens Funktionen, die ihr heute gebrauchen könntet.
+Herzlich willkommen zu eurer heutigen Programmiererfahrung im Backend mit der Programmiersprache Elixir. Nachfolgend findest du die Aufgabenstellung und weiter unten dann noch einige technische Hinweise.
 
-## Aufgabenstellung - Das erste Würfelprogramm
+## Schnell Einstieg
 
-### Main Task
+Öffne die Konsole (auch Terminal/Shell genannt) und gebe folgenden Command ein:
+
+`iex -S mix`
+
+Jetzt befindest du dich in der interaktiven Konsole unseres Programms.
+Hier kannst du schon Kommandos eingeben, wie z.B. Rechenoperationen
+
+`3 + 5`
+
+Aber dadurch, dass wir uns interaktiv in unserer Applikation befinden, können wir auch direkt Funktionen aus dieser aufrufen. Probiert das mal mit folgender Eingabe:
+
+`GirlsDay.hello_world()`
+
+## Aufgabenstellung
+
+### Main Task - Das erste Würfelprogramm
 
 Erstelle ein Programm, das eine Zahl von 1 bis 6 auf er Konsole ausgibt; wie ein echter Würfel.
 
