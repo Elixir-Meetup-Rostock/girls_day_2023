@@ -2,6 +2,10 @@
 
 Herzlich willkommen zu eurer heutigen Programmiererfahrung im Backend mit der Programmiersprache Elixir. Nachfolgend findest du die Aufgabenstellung und weiter unten dann noch einige technische Hinweise.
 
+**Wichtig!**
+
+> Scheut euch nicht heute Fragen zu stellen. Der Einstieg ist immer etwas knifflig und wir sind heute da um euch zu unterstützen!
+
 ## Schnell Einstieg
 
 Öffne die Konsole (auch Terminal/Shell genannt) und gebe folgenden Command ein:
@@ -16,6 +20,20 @@ Hier kannst du schon Kommandos eingeben, wie z.B. Rechenoperationen
 Aber dadurch, dass wir uns interaktiv in unserer Applikation befinden, können wir auch direkt Funktionen aus dieser aufrufen. Probiert das mal mit folgender Eingabe:
 
 `GirlsDay.hello_world()`
+
+Sehr gut! Um zu prüfen, ob das was wir sehen auch das ist, was wir eigentlich erwarten können wir die Ausgabe mit einem automatisierten Test überprüfen:
+
+`mix test test/girls_day_test.exs`
+
+Wenn es in der Konsole grün wird, war der Test erfolgreich. Versuche jetzt mal die Ausgabe der Funktion in der datei `girls_day.ex` zu ändern und den Test erneut auszuführen. Was siehst du?
+
+Und zuletzt, da ihr jetzt bereit seit euren eigenen Code zu schreiben, bekommt ihr das letzte wichtige Command für uns für die iex:
+
+`recompile`
+
+Damit könnt ihr eure gespeicherten Code-Änderungen direkt kompilieren und sie somit danach erneut überprüfen.
+
+Viel Spaß!
 
 ## Aufgabenstellung
 

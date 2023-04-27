@@ -11,7 +11,7 @@ defmodule StretchGoal1Test do
   end
 
   test "does the output work in general" do
-    some_values = %{a: 1, b: 2}
+    values = %{a: 1, b: 2}
     assert StretchGoal1.print_results(values) == :ok
   end
 

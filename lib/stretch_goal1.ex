@@ -20,6 +20,6 @@ defmodule StretchGoal1 do
   # die Augenzahl der Würfel soll 1-6 sein
   #
   def roll_dices(range, count) do
-    {range, count}
+    range
   end
 end
