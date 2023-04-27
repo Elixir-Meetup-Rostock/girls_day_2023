@@ -71,6 +71,10 @@ Baue für die verschiedenen Würfelkombinationen funktionen, die den Punktenwert
 
 Dieses Modul kann mit Aufzählungen arbeiten.
 
+**Enum.any?(enumerable, value)**
+
+Überprüft eine Aufzählung, ob in ihr ein bestimmtes Element enthalten ist.
+
 **Enum.count(enumerable)**
 
 Gibt die Anzahl der Elemente in einer Aufzählung zurück.
